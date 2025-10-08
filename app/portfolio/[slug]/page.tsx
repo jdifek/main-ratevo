@@ -13,7 +13,6 @@ export async function generateMetadata({ params }: PortfolioProps): Promise<Meta
 }
 
 export default function PortfolioProjectPage({ params }: PortfolioProps) {
-  // В реальном проекте данные из API/БД по params.slug
   const project = {
     title: 'E-commerce магазин электроники TechStore',
     category: 'Интернет-магазин',
